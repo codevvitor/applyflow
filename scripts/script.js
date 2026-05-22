@@ -26,7 +26,7 @@ async function analisarCurriculo(vaga, curriculo) {
   document.getElementById("progressBar").style.display = "block"
   document.getElementById("progressFill").style.width = "30%"
   try {
-    const resposta = await fetch("https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AIzaSyCpJmzl288HxTYYpL4XUaHLhIVK0ljgyoo", {
+    const resposta = await fetch("https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=SUA-KEY", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
