@@ -1,0 +1,101 @@
+.field {
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.actions {
+  margin-top: 8px;
+}
+
+body {
+  background-color: #0f0f1a;
+  color: #e0e0f0;
+  font-family: sans-serif;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+textarea {
+  background-color: #1a1a2e;
+  color: #e0e0f0;
+  border: 1px solid #3a3a5c;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 14px;
+  width: 100%;
+  resize: vertical;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #5b4fcf;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #7b6fe0;
+}
+
+h1 {
+  font-size: 32px;
+  color: #7b6fe0;
+  margin-bottom: 24px;
+}
+
+label {
+  font-size: 14px;
+  color: #a0a0c0;
+  font-weight: bold;
+}
+
+#resultado {
+  margin-top: 24px;
+  padding: 16px;
+  background-color: #1a1a2e;
+  border-radius: 8px;
+  border: 1px solid #3a3a5c;
+  line-height: 1.6;
+  white-space: pre-wrap;
+  font-family: "Inter", "Roboto", "Helvetica Neue";
+}
+
+#alerta {
+  display: none;
+  margin-top: 16px;
+  padding: 12px 16px;
+  background-color: #3a1a1a;
+  border: 1px solid #cf4f4f;
+  border-radius: 8px;
+  color: #ff6b6b;
+}
+
+#resultado:empty {
+  display: none;
+  padding: 0;
+  border: none;
+}
+
+#progressBar {
+  margin-top: 16px;
+  background-color: #1a1a2e;
+  border-radius: 8px;
+  height: 8px;
+  overflow: hidden;
+}
+
+#progressFill {
+  height: 100%;
+  width: 0%;
+  background-color: #5b4fcf;
+  border-radius: 8px;
+  transition: width 0.3s ease;
+}

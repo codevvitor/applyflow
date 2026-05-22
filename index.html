@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="styles/style.css"/>
+  <title>ApplyFlow</title>
+</head>
+<body>
+  <h1>ApplyFlow</h1>
+
+  <div class="field">
+    <label>Descrição da vaga</label>
+    <textarea id="vaga" rows="8" placeholder="Cole a descrição da sua vaga aqui..."></textarea>
+  </div>
+
+  <div class="field">
+    <label>Seu currículo</label>
+    <textarea id="curriculo" rows="8" placeholder="Cole o texto do seu currículo aqui..."></textarea>
+  </div>
+
+  <div class="actions">
+    <button id="btnAnalisar">Analisar</button>
+  </div>
+  <div id="progressBar" style="display:none">
+  <div id="progressFill"></div>
+</div>
+  <div id="alerta"></div>
+  <div id="resultado"></div>
+  <script src="scripts/script.js"></script>
+</body>
+</html>
